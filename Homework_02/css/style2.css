@@ -1,0 +1,8 @@
+body {
+	width: 1350px;
+	height: 1350px;
+	background-image: url("../images/4.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

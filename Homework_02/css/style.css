@@ -1,0 +1,22 @@
+.content {
+	margin: auto;
+	max-width: 60%;
+}
+.blue, .yellow, .green {
+	color: grey;
+	text-align: left;
+	padding: 7px;
+	margin: 5px;
+}
+
+.blue {
+	background-color: #acb9ca;
+}
+
+.yellow {
+	background-color: #ff0
+}
+
+.green {
+	background-color: #92d050
+}
