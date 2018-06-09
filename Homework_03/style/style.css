@@ -1,0 +1,85 @@
+p, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background-image: url("../img/banner_redapples.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 433px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+#text-container {
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-top: 70px;
+    margin-right: 20px;
+
+}
+.text {
+    font-family: 'Arimo', sans-serif;
+    margin: 0 0 5px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    color: white;
+    padding: 15px;
+}
+.button {
+    border-radius: 5px;
+    background-color: #7cad36;
+    padding: 7px;
+    color: white;
+    margin-top: 10px;
+    width: 27% !important;
+    text-transform: uppercase;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.backforward {
+    position: absolute;
+    width: 82px;
+    height: 41px;
+    right: 0;
+    bottom: 0;
+}
+.arrow {
+    float: left;
+    font-size: 44px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.arrow a {
+    color: white;
+    text-decoration: none;
+}
+.arrow:first-child {
+    margin-right: 2px;
+}
+.points {
+    position: absolute;
+    bottom: 1px;
+    left: 535px;
+    width: 130px;
+    height: 25px;
+}
+.point {
+    float: left;
+}
+.point a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    margin-left: 10px;
+}
+.point:last-child {
+    margin-left: 0;
+}
