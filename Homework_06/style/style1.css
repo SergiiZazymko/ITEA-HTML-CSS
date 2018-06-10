@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /*position: fixed;*/
+    margin: auto;
+    width: 50%;
+}
+.navbar {
+    position: fixed;
+    margin: auto;
+}
+
+li.navbar_button {
+    background-color: lightgrey;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    margin-left: -6px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+li.navbar_button:first-child {
+    border-left: none;
+    font-weight: 900;
+}
+
+li.navbar_button:last-child {
+    border-right: none;
+}
+
+li.navbar_button a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_button p {
+    padding: 25px 15px;
+}
+
+li.navbar_button:hover {
+    background-color: #adabab;
+}

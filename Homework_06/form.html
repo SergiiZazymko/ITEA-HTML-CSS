@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/form.css">
+    <meta charset="UTF-8">
+    <title>Homework 06. Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="form_header">
+                <h3>Contact manger</h3>
+            </div>
+            <div class="form_left">
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">First name <span class="red_star">*</span></p>
+                    <input class="form_left_item_input" type="text" name="first_name">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Last name <span class="red_star">*</span></p>
+                    <input class="form_left_item_input" type="text" name="last_name">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Address</p>
+                    <textarea cols="20" rows="5" class="form_left_item_input"name="address"></textarea>
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">City</p>
+                    <input class="form_left_item_input" type="text" name="city">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">State</p>
+                    <select class="form_left_item_input" type="text" name="state">
+                        <optgroup label="Select">
+                            <option>Florida</option>
+                            <option>California</option>
+                            <option>Texas</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Zip</p>
+                    <input class="form_left_item_input" type="text" name="zip">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Home phone</p>
+                    <input style="width: 100px" class="form_left_item_input" type="text" name="home_phone">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Work phone <span class="red_star">*</span></p>
+                    <input class="form_left_item_input" type="text" name="work_phone">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Fax number</p>
+                    <input style="width: 100px" class="form_left_item_input" type="text" name="fax_number">
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Web site</p>
+                    <div class="form_left_item_desc_website">
+                        <div style="clear:both;">
+                            <div class="form_left_item_website_url">
+                                <p class="form_left_item_desc">URL</p>
+                                <input style="width: 100px" class="form_left_item_input" type="text" name="url">
+                            </div>
+                        </div>
+                        <div style="clear:both;">
+                            <div class="form_left_item_website_url">
+                                <p class="form_left_item_desc">Link Name</p>
+                                <input style="width: 100px" class="form_left_item_input" type="text" name="link_name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_left_item">
+                    <p class="form_left_item_desc">Email address <span class="red_star">*</span></p>
+                    <input class="form_left_item_input" type="text" name="email_address">
+                </div>
+
+            </div>
+            <div class="form_right">
+                <div class="form_right_item">
+                    <p class="form_right_item_desc">What is the best time to contact you?</p>
+                    <div class="form_right_item_input">
+                        <input type="radio" name="contact_time" value="Morning">Morning<br>
+                        <input type="radio" name="contact_time" value="Afternoon">Afternoon<br>
+                        <input type="radio" name="contact_time" value="Evening">Evening<br>
+                    </div>
+                </div>
+                <div class="form_right_item">
+                    <p class="form_right_item_desc">What is the best way to contact you?</p>
+                    <div class="form_right_item_input">
+                        <input type="radio" name="contact_way" value="Phone">Phone<br>
+                        <input type="radio" name="contact_way" value="Email">Email<br>
+                        <input type="radio" name="contact_way" value="Fax">Fax<br>
+                    </div>
+                </div>
+                <div class="form_left_item">
+                    <p style="margin-left: 0;" class="form_left_item_desc">Message</p>
+                    <textarea style="margin-right: 10px;" cols="20" rows="5" class="form_left_item_input"name="message"></textarea>
+                </div>
+            </div>
+
+            <div class="form_footer">
+                <input class="form_footer_button" type="submit" value="Submit">
+                <input class="form_footer_button"  type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
