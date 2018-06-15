@@ -1,0 +1,62 @@
+* {
+	font-size: 13px;
+	font-family: 'Quicksand', sans-serif;
+}
+table.form_table {
+	border: 1px solid #79A5FF;
+	margin: auto;
+	width: 40%;
+	height: auto
+}
+td.form_table-left {
+	width: 25%;
+	vertical-align: top;
+}
+.form_table-left p {	
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.form_table-right input {
+	 float: left;
+	 border: 1px solid #79A5FF;
+	 width: 200px;
+	 height: 20px;
+ }
+.form_table-right select {
+	float: left;
+	border: 1px solid #79A5FF;
+	width: 204px;
+	height: 27px;
+}
+#text_title {
+	vertical-align: top;
+}
+textarea {
+	float: left;
+	border: 1px solid #79A5FF;
+}
+#textarea {
+	vertical-align: top;
+	position: relative;
+}
+#captcha {
+	width: 100px;
+	float: left;
+}
+.form_table-right img {
+	width: 100px;
+	float: left;
+	height: 50px;
+}
+img {
+	border: 1px solid #79A5FF;
+	margin-left: 10px;
+	float: left;
+}
+.form_table-right p {
+	text-decoration: underline;
+	padding-left: 10px;
+	float: left;
+}

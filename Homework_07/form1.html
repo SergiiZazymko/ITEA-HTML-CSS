@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homrwork 07. Form 1</title>
+	<link rel="stylesheet" type="text/css" href="style/form1.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+	<form>
+		<table class="form_table">
+			<tr>
+				<td class="form_table-left">
+					<p>Your name</p>
+				</td>
+				<td class="form_table-right">
+					<input type="text" name="name">
+				</td>
+			</tr>
+			<tr>
+				<td class="form_table-left">
+					<p>Your email</p>
+				</td>
+				<td class="form_table-right">
+					<input type="text" name="email">
+				</td>
+			</tr>
+			<tr>
+				<td class="form_table-left">
+					<p>Message theme</p>
+				</td>
+				<td class="form_table-right">
+					<select name="theme">
+						<option>Programming</option>
+						<option>Computers</option>
+						<option>Security</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="form_table-left">
+					<p id="text_title">Text *</p>
+				</td>
+				<td class="form_table-right" id="textarea">
+					<textarea  name="text" cols="50" rows="8"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="form_table-left">
+					<p>Spam protection *</p>
+				</td>
+				<td class="form_table-right">
+					<input id="captcha" type="text" name="captcha">
+					<img src="img/1.webp">
+					<p>change picture</p>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+
+				<td>
+					<input type="submit" name="submit" value="Send Message">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
